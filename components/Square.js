@@ -1,12 +1,14 @@
 import React from 'react'
 
 const style = {
-  background: 'lightblue',
-  border: '2px solid darkblue',
+  background: '#eaff87',
+  border: '2px solid #C60052',
   fontSize: '30px',
   fontWeight: '800',
   cursor: 'pointer',
   outline: 'none',
+  borderRadius: '25px',
+  color: '#ff714b',
 }
 
 // With this arrow function we have an implicit return and don't need the return keyword

@@ -30628,7 +30628,7 @@ var _Square2 = _interopRequireDefault(_Square);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var style = {
-  border: '4px solid darkblue',
+  border: '4px solid #540045',
   borderRadius: '25px',
   width: '350px',
   height: '350px',
@@ -30676,12 +30676,14 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var style = {
-  background: 'lightblue',
-  border: '2px solid darkblue',
+  background: '#eaff87',
+  border: '2px solid #C60052',
   fontSize: '30px',
   fontWeight: '800',
   cursor: 'pointer',
-  outline: 'none'
+  outline: 'none',
+  borderRadius: '25px',
+  color: '#ff714b'
 
   // With this arrow function we have an implicit return and don't need the return keyword
   // We can destructure out of props right in the argument passing in
